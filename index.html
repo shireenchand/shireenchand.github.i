@@ -56,6 +56,34 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<style>
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        body {
+            padding-top: 50px; /* Height of the navbar */
+        }
+    </style>
+
 </head>
 
 <body>
@@ -93,6 +121,17 @@
 				</div>
 			</div>
 		</header>
+
+		<nav class="navbar">
+            <a href="#fh5co-about">About</a>
+            <a href="#fh5co-resume">Resume</a>
+            <a href="#fh5co-features">Skills</a>
+            <a href="#fh5co-skills">Research</a>
+			<a href="#fh5co-blog">Blogs</a>
+            <a href="#fh5co-Projects">Projects</a>
+            <a href="#fh5co-blog">Demo</a>
+            <a href="#fh5co-started">Contact</a>
+        </nav>
 
 		<div id="fh5co-about" class="animate-box">
 			<div class="container">
@@ -588,6 +627,60 @@
 		</div>
 
 		<div id="fh5co-blog">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Blogs</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="https://medium.com/p/a3d683e39976" class="blog-bg" style="background-image: url(images/first.webp);"></a>
+						<div class="blog-text">
+							<span class="posted_on">May 29th 2024</span>
+							<h3><a href="https://medium.com/p/a3d683e39976">Leveraging LLM Fine-Tuning and RAG for Advanced Recommendation Engines</a></h3>
+							<p>Traditional recommendation systems are great, but they often miss the mark on truly understanding user preferences. In this blog, I explore how leveraging Fine-tuned LLMs + RAG can help build better Recommendation Systems.</p>
+							<ul class="stuff">
+								<li><i class="icon-clock2"></i>7 minute read</li>
+								<li><a href="https://medium.com/p/a3d683e39976">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="https://medium.com/p/561e9840a2cc" class="blog-bg" style="background-image: url(images/second.webp);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Feb. 27th 2024</span>
+							<h3><a href="https://medium.com/p/561e9840a2cc">Overview of SPHINX: The Mix Master</a></h3>
+							<p>SPHINX is a Multimodal Large Language Model (MLLM) capable of performing a variety of visual-language-based tasks by employing different mixing strategies. This blog is breakdown of this versatile model.</p>
+							<ul class="stuff">
+								<li><i class="icon-clock2"></i>5 minute read</li>
+								<li><a href="https://medium.com/p/561e9840a2cc">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="https://medium.com/p/abea92c84662" class="blog-bg" style="background-image: url(images/third.webp);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Jul. 20th 2023</span>
+							<h3><a href="https://medium.com/p/abea92c84662">Choosing between Cross Entropy and Sparse Cross Entropy — The Only Guide you Need!</a></h3>
+							<p>Often Machine Learning beginners get confused with choosing what type of loss they need to use easpecially between Cross Entropy and Sparse Cross Entropy. This blog is exactly the guide they need.</p>
+							<ul class="stuff">
+								<li><i class="icon-clock2"></i>4 minute read</li>
+								<li><a href="https://medium.com/p/abea92c84662">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-blog" class="fh5co-bg-dark">
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
